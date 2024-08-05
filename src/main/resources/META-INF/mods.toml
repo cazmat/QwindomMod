@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/cazmat/QwindomMod/issues"
+[[mods]]
+modId="morebabies"
+version="${file.jarVersion}"
+displayName="QwindomMod"
+#updateJSONURL=""
+#displayURL=""
+#logoFile="examplemod.png"
+#credits=""
+authors="Cazmat"
+#displayTest="MATCH_VERSION"
+description='''
+Core mod package for the Qwindom
+'''
+[[dependencies.morebabies]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.morebabies]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
