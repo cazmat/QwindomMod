@@ -1,0 +1,35 @@
+package me.cazmat.morebabies.client.renderer.entity;
+
+import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import me.cazmat.morebabies.Constants;
+import me.cazmat.morebabies.client.model.entity.MindlessModel;
+import me.cazmat.morebabies.entity.MindlessEntity;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.resources.ResourceLocation;
+import org.jetbrains.annotations.Nullable;
+import software.bernie.geckolib3.geo.render.built.GeoModel;
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
+public class MindlessEntityRenderer extends GeoEntityRenderer<MindlessEntity> {
+    public MindlessEntityRenderer(EntityRendererProvider.Context renderManager) {
+        super(renderManager, new MindlessModel());
+    }
+
+    @Override
+    public ResourceLocation getTextureLocation(MindlessEntity animatable) {
+        return new ResourceLocation(Constants.MOD_ID, "textures/entity/mindless.png");
+    }
+
+    @Override
+    public RenderType getRenderType(MindlessEntity animatable, float partialTick, PoseStack poseStack, @Nullable MultiBufferSource bufferSource, @Nullable VertexConsumer buffer, int packedLight, ResourceLocation texture) {
+        return RenderType.entityCutout(getTextureLocation(animatable));
+    }
+
+    @Override
+    public void render(GeoModel model, MindlessEntity animatable, float partialTick, RenderType type, PoseStack poseStack, @Nullable MultiBufferSource bufferSource, @Nullable VertexConsumer buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
+        super.render(model, animatable, partialTick, type, poseStack, bufferSource, buffer, packedLight, packedOverlay, red, green, blue, alpha);
+    }
+}
