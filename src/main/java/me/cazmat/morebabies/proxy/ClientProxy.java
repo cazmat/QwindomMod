@@ -1,5 +1,6 @@
-package me.cazmat.morebabies;
+package me.cazmat.morebabies.proxy;
 
+import me.cazmat.morebabies.Constants;
 import me.cazmat.morebabies.client.renderer.entity.firefly.FireflyEntityRenderer;
 import me.cazmat.morebabies.client.renderer.entity.MindlessEntityRenderer;
 import me.cazmat.morebabies.client.renderer.entity.firefly.IceFireflyEntityRenderer;

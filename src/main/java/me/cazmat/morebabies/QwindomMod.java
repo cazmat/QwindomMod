@@ -1,8 +1,9 @@
 package me.cazmat.morebabies;
 
-import me.cazmat.morebabies.client.renderer.entity.MindlessEntityRenderer;
+import me.cazmat.morebabies.config.ConfigManager;
+import me.cazmat.morebabies.proxy.ClientProxy;
+import me.cazmat.morebabies.proxy.CommonProxy;
 import me.cazmat.morebabies.registry.EntityRegistry;
-import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.ModLoadingContext;

@@ -1,5 +1,6 @@
-package me.cazmat.morebabies;
+package me.cazmat.morebabies.proxy;
 
+import me.cazmat.morebabies.Constants;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.common.Mod;
 
