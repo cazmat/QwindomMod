@@ -17,12 +17,16 @@ public class ConfigManager {
     private static final ForgeConfigSpec.BooleanValue VILLAGER_SPAWNS_ENABLED;
     private static final ForgeConfigSpec.BooleanValue VILLAGER_SPAWNS_COMMAND;
     private static final ForgeConfigSpec.BooleanValue VILLAGER_SPAWNS_EGG;
+    private static final ForgeConfigSpec.BooleanValue SPROG_HOSTILITY;
 
     static {
         BUILDER.push("Mob Spawns");
         VILLAGER_SPAWNS_ENABLED = BUILDER.comment("Do we allow villager spawns on the server?").define("villager_spawns_enabled", false);
         VILLAGER_SPAWNS_COMMAND = BUILDER.comment("Do we allow commands to spawn villagers? (Overrides villager spawn setting)").define("villager_spawns_command", true);
         VILLAGER_SPAWNS_EGG = BUILDER.comment("Do we allow spawn eggs to spawn villagers? (Overrides villager spawn setting)").define("villager_spawns_egg", true);
+        BUILDER.pop();
+        BUILDER.push("Sprog Settings");
+        SPROG_HOSTILITY = BUILDER.comment("Should Sprogs be hostile to players by default?").define("sprog_hostility", true);
         BUILDER.pop();
         SPEC = BUILDER.build();
     }
@@ -39,5 +43,8 @@ public class ConfigManager {
     }
     public static boolean allowVillagerEggSpawn() {
         return VILLAGER_SPAWNS_EGG.get();
+    }
+    public static boolean areSprogsHostile() {
+        return SPROG_HOSTILITY.get();
     }
 }

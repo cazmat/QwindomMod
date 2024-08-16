@@ -25,3 +25,4 @@
   - `IceFly`
   - `MagmaFly`
 - Re-Added Vanilla Villager spawn-switches.
+- Refactored `Sprog` entity into code base.
