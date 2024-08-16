@@ -20,3 +20,7 @@
   - Added temporary output to tell us `Y` levels when a `Baby Cave Spider` spawns.
 ### 0.12
 - Created the `Mindless` entity.
+- Created the `Firefly` entities with Variants:
+  - `Firefly`
+  - `IceFly`
+  - `MagmaFly`
