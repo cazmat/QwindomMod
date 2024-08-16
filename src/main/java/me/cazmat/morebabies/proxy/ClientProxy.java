@@ -14,8 +14,6 @@ import net.minecraftforge.fml.common.Mod;
 @OnlyIn(Dist.CLIENT)
 @Mod.EventBusSubscriber(modid = Constants.MOD_ID, value = Dist.CLIENT)
 public class ClientProxy extends CommonProxy {
-    public void init() {
-    }
     public void clientInit() {
         EntityRenderers.register(EntityRegistry.MINDLESS.get(), MindlessEntityRenderer::new);
         EntityRenderers.register(EntityRegistry.FIREFLY.get(), FireflyEntityRenderer::new);
