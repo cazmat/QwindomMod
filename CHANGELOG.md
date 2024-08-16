@@ -24,3 +24,4 @@
   - `Firefly`
   - `IceFly`
   - `MagmaFly`
+- Re-Added Vanilla Villager spawn-switches.
