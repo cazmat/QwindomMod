@@ -24,8 +24,4 @@ public class ConfigManager {
         configData.load();
         spec.setConfig(configData);
     }
-    @SubscribeEvent
-    public static void onConfigEvent(ModConfigEvent event) {
-        SPEC.setConfig(event.getConfig().getConfigData());
-    }
 }
