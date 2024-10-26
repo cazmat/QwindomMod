@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/cazmat/QwindomMod/issues"
+[[mods]]
+modId="qwindom"
+version="${file.jarVersion}"
+displayName="Qwindom Mod"
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+displayURL="https://github.com/cazmat/QwindomMod"
+authors="Cazmat, Qwinlyn"
+description='''
+A collection of additions and tweaks, primarily for the Forgotten Empires SMP.
+'''
+[[dependencies.qwindom]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.qwindom]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
