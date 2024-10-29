@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = Qwindom.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TabsRegistry {
-    public static final CreativeModeTab WALLS_TAB = new CreativeModeTab("ctvcore_walls") {
+    public static final CreativeModeTab WALLS_TAB = new CreativeModeTab("qwindom_walls") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(BlockRegistry.CALCITE_WALL.get());
