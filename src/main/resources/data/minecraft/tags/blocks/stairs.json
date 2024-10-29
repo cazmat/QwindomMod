@@ -1,7 +1,8 @@
 {
   "values": [
     "qwindom:calcite_stairs",
-    "qwindom:polished_basalt_stairs"
+    "qwindom:polished_basalt_stairs",
+    "qwindom:smooth_basalt_stairs"
   ],
   "replace": false
 }

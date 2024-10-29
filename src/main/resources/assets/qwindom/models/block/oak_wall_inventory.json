@@ -1,0 +1,9 @@
+{
+  "parent": "qwindom:block/template/dual_wall_inventory",
+  "textures": {
+    "post": "minecraft:block/oak_log",
+    "post_top": "minecraft:block/oak_log",
+    "wall": "minecraft:block/stripped_oak_log",
+    "wall_top": "minecraft:block/stripped_oak_log"
+  }
+}
