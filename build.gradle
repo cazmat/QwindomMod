@@ -8,7 +8,7 @@ plugins {
 version = "$modversion"
 group = 'me.cazmat.qwindom' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 // archivesBaseName = 'qwindom-1.19.2'
-base.archivesName = 'qwindom'
+base.archivesName = 'qwindom-1.19.2'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
