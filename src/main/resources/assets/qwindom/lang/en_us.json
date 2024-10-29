@@ -1,6 +1,9 @@
 {
+  "block.qwindom.calcite_stairs": "Calcite Stairs",
   "block.qwindom.calcite_wall": "Calcite Wall",
   "block.qwindom.polished_basalt_wall": "Polished Basalt Wall",
+  "block.qwindom.smooth_basalt_wall": "Smooth Basalt Wall",
 
+  "itemGroup.qwindom_stairs": "Stairs",
   "itemGroup.qwindom_walls": "Walls"
 }

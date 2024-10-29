@@ -1,7 +1,8 @@
 {
   "values": [
     "qwindom:calcite_wall",
-    "qwindom:polished_basalt_wall"
+    "qwindom:polished_basalt_wall",
+    "qwindom:smooth_basalt_wall"
   ],
   "replace": false
 }

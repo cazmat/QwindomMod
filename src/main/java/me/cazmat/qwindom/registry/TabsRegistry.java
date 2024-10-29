@@ -13,4 +13,10 @@ public class TabsRegistry {
             return new ItemStack(BlockRegistry.CALCITE_WALL.get());
         }
     };
+    public static final CreativeModeTab STAIRS_TAB = new CreativeModeTab("qwindom_stairs") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(BlockRegistry.CALCITE_STAIRS.get());
+        }
+    };
 }
