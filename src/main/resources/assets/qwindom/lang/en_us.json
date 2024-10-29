@@ -1,3 +1,6 @@
 {
-  "block.qwindom.calcite_wall": "Calcite Wall"
+  "block.qwindom.calcite_wall": "Calcite Wall",
+  "block.qwindom.polished_basalt_wall": "Polished Basalt Wall",
+
+  "itemGroup.qwindom_walls": "Walls"
 }

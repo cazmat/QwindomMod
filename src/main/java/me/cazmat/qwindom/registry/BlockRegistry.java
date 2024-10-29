@@ -20,6 +20,8 @@ public class BlockRegistry {
 
     public static final RegistryObject<Block> CALCITE_WALL = registerBlock("calcite_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)), TabsRegistry.WALLS_TAB);
+    public static final RegistryObject<Block> POLISHED_BASALT_WALL = registerBlock("polished_basalt_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BASALT)), TabsRegistry.WALLS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
