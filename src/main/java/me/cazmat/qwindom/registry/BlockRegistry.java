@@ -20,6 +20,8 @@ import java.util.function.Supplier;
 public class BlockRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Qwindom.MOD_ID);
 
+    public static final RegistryObject<Block> BASALT_WALL = registerBlock("basalt_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BASALT)), TabsRegistry.WALLS_TAB);
     public static final RegistryObject<Block> CALCITE_WALL = registerBlock("calcite_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)), TabsRegistry.WALLS_TAB);
     public static final RegistryObject<Block> POLISHED_BASALT_WALL = registerBlock("polished_basalt_wall",
@@ -29,6 +31,8 @@ public class BlockRegistry {
 
     public static final RegistryObject<Block> CALCITE_STAIRS = registerBlock("calcite_stairs",
             () -> new StairBlock(Blocks.CALCITE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CALCITE)), TabsRegistry.STAIRS_TAB);
+    public static final RegistryObject<Block> POLISHED_BASALT_STAIRS = registerBlock("polished_basalt_stairs",
+            () -> new StairBlock(Blocks.POLISHED_BASALT.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BASALT)), TabsRegistry.STAIRS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
