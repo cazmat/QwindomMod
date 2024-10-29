@@ -13,3 +13,5 @@
     - `Calcite`
     - `Polished Basalt`
     - `Smooth Basalt`
+  - Added new `Buttons` variants
+    - `Calcite`

@@ -19,4 +19,10 @@ public class TabsRegistry {
             return new ItemStack(BlockRegistry.CALCITE_STAIRS.get());
         }
     };
+    public static final CreativeModeTab BUTTONS_TAB = new CreativeModeTab("qwindom_buttons") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(BlockRegistry.CALCITE_BUTTON.get());
+        }
+    };
 }
