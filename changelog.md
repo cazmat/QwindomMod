@@ -8,7 +8,8 @@
     - `Oak Wall`
     - `Polished Basalt`
     - `Smooth Basalt`
+    - `Stone`
   - Added new `Stairs` variants
-    - `Calcite Stairs`
-    - `Polished Basalt Stairs`
-    - `Smooth Basalt Stairs`
+    - `Calcite`
+    - `Polished Basalt`
+    - `Smooth Basalt`

@@ -4,7 +4,8 @@
     "qwindom:calcite_wall",
     "qwindom:oak_wall",
     "qwindom:polished_basalt_wall",
-    "qwindom:smooth_basalt_wall"
+    "qwindom:smooth_basalt_wall",
+    "qwindom:stone_wall"
   ],
   "replace": false
 }

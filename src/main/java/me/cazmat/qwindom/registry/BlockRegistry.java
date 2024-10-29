@@ -31,6 +31,8 @@ public class BlockRegistry {
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BASALT)), TabsRegistry.WALLS_TAB);
     public static final RegistryObject<Block> SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT)), TabsRegistry.WALLS_TAB);
+    public static final RegistryObject<Block> STONE_WALL = registerBlock("stone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)), TabsRegistry.WALLS_TAB);
 
     public static final RegistryObject<Block> CALCITE_STAIRS = registerBlock("calcite_stairs",
             () -> new StairBlock(Blocks.CALCITE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CALCITE)), TabsRegistry.STAIRS_TAB);
