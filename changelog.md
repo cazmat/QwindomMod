@@ -15,3 +15,5 @@
     - `Smooth Basalt`
   - Added new `Buttons` variants
     - `Calcite`
+- 0.1.1
+  - Added crafting recipes

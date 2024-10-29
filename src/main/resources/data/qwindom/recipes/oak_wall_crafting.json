@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "A": {
+      "item": "minecraft:oak_wood"
+    }
+  },
+  "pattern": [
+    "A#A",
+    "A#A"
+  ],
+  "result": {
+    "count": 6,
+    "item": "qwindom:oak_wall"
+  }
+}
