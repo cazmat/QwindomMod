@@ -1,8 +1,8 @@
 {
   "homepage": "https://github.com/cazmat/QwindomMod/releases",
   "1.19.2": {
-    "0.1.0": "Initial Release",
-    "0.1.1": "Added Crafting Recipes"
+    "0.1.1": "Added Crafting Recipes",
+    "0.1.0": "Initial Release"
   },
   "promos": {
     "1.19.2-latest": "0.1.1",

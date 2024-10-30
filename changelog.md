@@ -21,4 +21,5 @@
   - Added new `Walls` variants
     - `Dark Prismarine`
     - `Prismarine Bricks`
+    - `Dual Prismarine` : Combination of Prismarine and Prismarine Bricks
   - Fixed `Calcite Button` pressed blockstate

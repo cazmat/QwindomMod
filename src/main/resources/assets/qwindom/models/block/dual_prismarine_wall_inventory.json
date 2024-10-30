@@ -1,0 +1,9 @@
+{
+  "parent": "qwindom:block/template/dual_wall_inventory",
+  "textures": {
+    "post": "minecraft:block/prismarine_bricks",
+    "post_top": "minecraft:block/prismarine_bricks",
+    "wall": "minecraft:block/prismarine",
+    "wall_top": "minecraft:block/prismarine"
+  }
+}
