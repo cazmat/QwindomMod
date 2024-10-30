@@ -17,7 +17,8 @@
     - `Calcite`
 - 0.1.1
   - Added crafting recipes
-- 0.1.2
+### 0.2.x
+- 0.2.0
   - Added new `Walls` variants
     - `Dark Prismarine`
     - `Prismarine Bricks`
@@ -25,3 +26,4 @@
   - Fixed `Calcite Button` pressed blockstate
   - Added new `Slabs` variants
     - `Dripstone`
+  - Integrated UpdateNotifier
