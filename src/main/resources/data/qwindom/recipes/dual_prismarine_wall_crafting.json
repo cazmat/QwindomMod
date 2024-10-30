@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine"
+    },
+    "A": {
+      "item": "minecraft:prismarine_bricks"
+    }
+  },
+  "pattern": [
+    "A#A",
+    "A#A"
+  ],
+  "result": {
+    "count": 6,
+    "item": "qwindom:dual_prismarine_wall"
+  }
+}
