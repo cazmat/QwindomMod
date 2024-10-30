@@ -27,6 +27,8 @@ public class BlockRegistry {
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.WOOD)), TabsRegistry.WALLS_TAB);
     public static final RegistryObject<Block> POLISHED_BASALT_WALL = registerBlock("polished_basalt_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BASALT)), TabsRegistry.WALLS_TAB);
+    public static final RegistryObject<Block> PRISMARINE_BRICK_WALL = registerBlock("prismarine_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICKS)), TabsRegistry.WALLS_TAB);
     public static final RegistryObject<Block> SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT)), TabsRegistry.WALLS_TAB);
     public static final RegistryObject<Block> STONE_WALL = registerBlock("stone_wall",
