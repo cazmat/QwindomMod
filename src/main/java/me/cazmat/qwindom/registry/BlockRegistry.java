@@ -47,7 +47,7 @@ public class BlockRegistry {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.of(Material.DECORATION).noCollission().strength(0.5F)), TabsRegistry.BUTTONS_TAB);
 
     public static final RegistryObject<Block> DRIPSTONE_SLAB = registerBlock("dripstone_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)), TabsRegistry.WALLS_TAB);
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)), TabsRegistry.SLABS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

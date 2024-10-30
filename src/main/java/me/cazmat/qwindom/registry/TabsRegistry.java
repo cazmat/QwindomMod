@@ -25,4 +25,10 @@ public class TabsRegistry {
             return new ItemStack(BlockRegistry.CALCITE_BUTTON.get());
         }
     };
+    public static final CreativeModeTab SLABS_TAB = new CreativeModeTab("qwindom_slabs") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(BlockRegistry.DRIPSTONE_SLAB.get());
+        }
+    };
 }
